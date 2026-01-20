@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply antialiased bg-black text-white;
+    }
+}
+
+.neon-shadow {
+    box-shadow: 0 0 20px rgba(16, 185, 129, 0.5);
+}
+
+.text-neon {
+    text-shadow: 0 0 10px rgba(16, 185, 129, 0.8), 0 0 20px rgba(16, 185, 129, 0.4);
+}
