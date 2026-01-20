@@ -1,4 +1,3 @@
-import './App.css';
 import Greet from './Greet';
 import Clock from './Clock';
 
