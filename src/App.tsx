@@ -57,15 +57,15 @@ function App() {
           {mode === 'clock' && (
             <motion.div
               key="clock"
-              initial={{ opacity: 0, y: 10 }}
+              initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -10 }}
-              className="space-y-4"
+              exit={{ opacity: 0, y: -20 }}
+              className="space-y-6"
             >
-              <h2 className="text-8xl md:text-9xl font-black text-emerald-400 tracking-tighter text-neon uppercase">
+              <h2 className="text-8xl md:text-[10rem] font-black text-emerald-400 tracking-tighter leading-none drop-shadow-[0_0_60px_rgba(16,185,129,0.5)]">
                 {time.format('HH:mm:ss')}
               </h2>
-              <p className="text-xl text-emerald-600/60 font-medium tracking-widest uppercase">
+              <p className="text-lg text-emerald-500/50 font-bold tracking-[0.3em] uppercase">
                 {time.format('dddd, MMMM D, YYYY')}
               </p>
             </motion.div>
@@ -125,8 +125,8 @@ function ModeBtn({ icon, active, onClick }: { icon: any, active: boolean, onClic
     <button
       onClick={onClick}
       className={`p-4 rounded-2xl transition-all ${active
-          ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20'
-          : 'text-zinc-600 hover:text-zinc-300'
+        ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20'
+        : 'text-zinc-600 hover:text-zinc-300'
         }`}
     >
       {icon}
