@@ -1,5 +1,5 @@
 {
-  "name": "09-digital-clock-react",
+  "name": "10-web-time-display",
   "private": false,
   "version": "2.1.0",
   "description": "Glassmorphic neon digital clock with React 19, Vite 6, Tailwind CSS v4, and native Date API. Features clock, stopwatch, and timer modes with full accessibility support.",
@@ -26,9 +26,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mk-knight23/09-digital-clock-react.git"
+    "url": "git+https://github.com/mk-knight23/10-web-time-display.git"
   },
-  "homepage": "https://mk-knight23.github.io/09-digital-clock-react/",
+  "homepage": "https://mk-knight23.github.io/10-web-time-display/",
   "dependencies": {
     "clsx": "^2.1.1",
     "framer-motion": "^12.29.2",
